@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Dependencies
-        run: sudo apt-get install -y make gcc
+        run: sudo apt-get install -y make gcc-14
 
       - name: Create Tag
         id: tag_generator
